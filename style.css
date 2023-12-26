@@ -1,0 +1,121 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(images/background-pizza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    background-color: rgba(40, 40, 40, 0.5);
+    border-radius: 100px;
+}
+
+header {
+    height: 200px;
+    background-image: url(images/logo-pizzeria.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-family: 'Cabin', sans-serif;
+    font-size: 80px;
+    color: whitesmoke;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+p{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+#prenota{
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    background-color:yellow;
+    border-radius: 10px;
+}
+
+#prenota:hover{
+    background-color: red;
+    border: 2px solid black;
+    color: yellow;
+}
+
+nav {
+    background-color: yellow;
+    background-color: rgba(150, 0, 0, 0.8);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    padding: 0 10px;
+}
+
+.menu:hover{
+    color: black;
+    background-color: whitesmoke;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.contact{
+    padding-top: 40px;
+}
+main {
+    background-color: brown;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+@media screen and (max-width: 420px){
+    .map{
+        margin-top: 320px;
+    }
+    
+}
+
+
+
+footer {
+    height: 100px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+#footer{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.linkF{
+    text-decoration: none;
+    color: yellow;
+
+}
+
+.linkF:hover{
+    color: red;
+}
